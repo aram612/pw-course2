@@ -42,7 +42,7 @@ const revenue = [{ month: 1, total: 90 },
 { month: 10, total: 120 },
 { month: 11, total: 130 },
 { month: 12, total: 110 },
-]
+];
 
 let totalRev = 0;
 for (let i = 0; i < revenue.length; i++) {

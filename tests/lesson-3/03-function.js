@@ -9,8 +9,12 @@ multiply(10, 9);
 // Bài 2
 function findMin(a, b, c) {
     let min = a;
-    if (b < min) min = b;
-    if (c < min) min = c;
+    if (b < min) {
+        min = b;
+    }
+    if (c < min) {
+        min = c;
+    }
     return min;
 }
 
@@ -19,7 +23,7 @@ console.log(`Giá trị nhỏ nhất là: ${findMin(3, 8, 4)}`);
 
 // Bài 3
 function getTopStudents(students, threshold) {
-    const arr = []
+    const arr = [];
     for (let i = 0; i < students.length; i++) {
         if (students[i].score >= threshold) {
             arr.push(students[i].name);

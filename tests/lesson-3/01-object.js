@@ -5,7 +5,7 @@ const car = {
     make: "Toyota",
     model: "Corolla",
     year: "2021"
-}
+};
 
 console.log(`Năm sản xuất của xe là: ${car["year"]}`);
 
@@ -17,7 +17,7 @@ const person = {
         city: "Tokyo",
         country: "Japan"
     }
-}
+};
 
 console.log(`Tên đường của nhân vật là: ${person["address"]["street"]}`);
 
@@ -28,7 +28,7 @@ const student = {
         math: 5,
         english: 1
     }
-}
+};
 
 console.log(`Điểm môn toán là: ${student["grades"]["math"]}`);
 
@@ -36,16 +36,16 @@ console.log(`Điểm môn toán là: ${student["grades"]["math"]}`);
 const settings = {
     volume: 88,
     brightness: 99
-}
+};
 
-settings.volume = 66
+settings.volume = 66;
 
 console.log(`object sau khi cập nhật giá trị là: `, settings);
 
 // Bài 5
-const bike = {}
+const bike = {};
 
-bike.color = "red"
+bike.color = "red";
 
 console.log(`object sau khi cập nhật: `, bike);
 
@@ -53,9 +53,9 @@ console.log(`object sau khi cập nhật: `, bike);
 const employee = {
     name: "Zenitsu",
     age: 16
-}
+};
 
-delete employee.age
+delete employee.age;
 
 console.log(`object sau khi cập nhật: `, employee);
 
