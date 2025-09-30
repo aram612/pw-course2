@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 
 test('Create 10 Notes and Search', async ({ page }) => {
 
@@ -67,5 +67,5 @@ test('Create 10 Notes and Search', async ({ page }) => {
         await page.locator('//input[@id="search"]').fill(searchTitle);
     });
 
-    
+
 });
